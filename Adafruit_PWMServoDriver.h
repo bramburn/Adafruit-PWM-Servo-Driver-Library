@@ -74,6 +74,7 @@
  */
 class Adafruit_PWMServoDriver {
 public:
+    //constructor
   Adafruit_PWMServoDriver();
   Adafruit_PWMServoDriver(const uint8_t addr);
   Adafruit_PWMServoDriver(const uint8_t addr, TwoWire &i2c);

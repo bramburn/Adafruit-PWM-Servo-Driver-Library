@@ -36,6 +36,7 @@
  *  @brief  Instantiates a new PCA9685 PWM driver chip with the I2C address on a
  * TwoWire interface
  */
+ //constructor sets the address at 0x40 but we need to set it at
 Adafruit_PWMServoDriver::Adafruit_PWMServoDriver()
     : _i2caddr(PCA9685_I2C_ADDRESS), _i2c(&Wire) {}
 
